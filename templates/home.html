@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+    {% for msg in messages %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ msg.sender }}</a>
+              <small class="text-muted">{{ msg.url }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ msg.title }}</a></h2>
+            <p class="article-content">{{ msg.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock body %}

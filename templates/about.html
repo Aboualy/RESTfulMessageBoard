@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <p><b>A simple message board web application</b>. <br><br>The application has two services: createMessage and listMessages. The services is implemented using a protocol running on HTTP.
+CreateMessage receives a message in the request and persists it in the application.
+        <br> <br>The message has 4 fields: title, content, sender and url. Url should be a valid url, the others can be arbitrary strings (with limited lengths). ListMessages service lists all the messages persisted in this application. </p>
+
+{% endblock body%}
