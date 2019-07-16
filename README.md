@@ -2,6 +2,11 @@
 
 This project comprises of two applications the first is named MessageBoard. “web application built using Bootstrap, HTML5 , CSS3, Python 3 and flask ( a microframework for Python)”, 
 
+ A simple message board web application. The application has two services: createMessage and listMessages. The services is implemented using a protocol running on HTTP.
+CreateMessage receives a message in the request and persists it in the application.
+ 
+The message has 4 fields: title, content, sender and url. Url should be a valid url, the others can be arbitrary strings (with limited lengths). ListMessages service lists all the messages persisted in this application.
+
 -----------------------------------------------------------------------------------------------------
 Installation:
  
