@@ -1,4 +1,4 @@
-# MessageBoard
+# RESTful MessageBoard
 
 This project comprises of two applications the first is named MessageBoard. “web application built using Bootstrap, HTML5 , CSS3, Python 3 and flask ( a microframework for Python)”, 
 
